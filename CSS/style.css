@@ -11,10 +11,11 @@ table {
     margin: auto;
     width: 60%;
     border-width: 3px;
-           
+
 }
 
-td,th{
+td,
+th {
     border: solid black;
 }
 
@@ -23,25 +24,123 @@ td,th{
     color: white;
     font-size: 30px;
     text-align: center;
-    font-family: "Helvectica","Arial",sans-serif;
+    font-family: "Helvectica", "Arial", sans-serif;
     padding: 10px;
 }
-.resumer{
+
+p {
     padding: 5px;
     text-align: left;
-    font-family: "Helvectica","Arial",sans-serif;
-    margin-bottom: 8px;
+    font-family: "Helvectica", "Arial", sans-serif;
+    margin-bottom: 12px;
+    font-size: 16px;
 }
-.synopsis{
+
+.synopsis {
     font-size: 25px;
     text-align: left;
     padding: 5px;
-    font-family: "Helvectica","Arial",sans-serif;
+    font-family: "Helvectica", "Arial", sans-serif;
     margin-bottom: 10px
 }
-img{
-   width: 100%;
+
+img {
+    width: 100%;
 }
-.distribution{
-vertical-align: top;
+
+.distribution {
+
+    background-color: blue;
+    color: white;
+    text-align: left;
+    font-weight: bold ;
+    font-size: 23px;
+    font-family: "Helvectica", "Arial", sans-serif;
+}
+
+#chrisEvans {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image:url('../images/Chris_Evans.png')
+}
+
+#chrisHemsworth {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image: url(../images/Chris_Hemsworth.png);
+}
+
+#jeremyRenner {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image: url(../images/Jeremy_Renner.png);
+}
+
+#markRuffalo {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image: url(../images/Mark_Ruffalo.png);
+}
+
+#robertDownyJR {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image: url(../images/Robert_Downey_Jr..png);
+}
+
+#scarlett {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image: url(../images/Scarlett_Johansson.png);
+}
+
+#tomHiddleston {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-image: url(../images/Tom_Hiddleston.png);
+}
+.NomActeurs{
+   font-weight: bold;
+   font-size: 20px;
+   font-family: "Helvectica", "Arial", sans-serif;
+}
+.NomRoles{
+   color: rgb(23, 23, 235);
+   font-family: "Helvectica", "Arial", sans-serif;
+   font-size: 12px;
 }
